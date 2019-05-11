@@ -1,0 +1,23 @@
+modeifiednewalgo algorthm
+
+ithu randamathe algorithm anu
+
+
+
+
+step 1:   consider 3*3 window.if the current pixel nim(m,n) <255 && >0
+           do nothing
+
+step 2:   else find the number of noisefree elents in that 3*3 window (mm) .if this is greater than window size( i.e 3)
+           then replace the noise pixel by median of the noise free pixels
+
+step 3:  else  increase window size by 2 upto maxwindow size (wsmax) (ie 13). after increasing window size by 2 (ie now 5)
+          check for the number of noise free pixels . if it is >=  window size(ie now 5) replace the center pixel with median of that window noise free pixels
+          if not then increment again by 2 and check for that condition again . until window size = maximum window size (13)
+
+step 4:  else if maximum window is reached by incrementing and still didnt work then again find the number of noise free pixels (mm) and if it is less than window size
+         replace cnter pixel with mean of noise free pixe;s of that window
+         else if that condition is also not satisfied then check if the entire wiindow contains only 0s and 255s , if yes then replace the center pixel by mean of that window elements
+          else if all these conditions fail, then replace the cnter puxel by median of all the elements int the window(not only the  noise free but all the elemets)
+end
+
