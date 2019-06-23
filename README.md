@@ -9,4 +9,5 @@ matlab code for MODPA - basepaperalgomod.m
 matlab code for MOD2PA - modifieednewalgo.m
 
 
-NOTE: these matlab codes work only on square sized images like 512*512 or 256*256 so on...(better use 512*512 or 256*256 for better working)
+NOTE: these matlab codes work only on square sized images like 512x512 or 256x256 so on...(better use 512x512 or 256x256 for better working)
+Our MOD2PA algo scored 18.9 PSNR on 99% applied noise on lena.png
