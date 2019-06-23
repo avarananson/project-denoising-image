@@ -3,7 +3,7 @@ Adaptive median filter denoising
 
 It is done based on research paper. Here we developed two algorithms:
 1) MODPA - based on base paper . advantage is that computaionaly fast <br />
-2) MOD2PA - modified algorithm based on base paper .  advantage- better PSNR than MODPA but computationaly expensive
+2) MOD2PA - modified algorithm based on base paper .  advantage- better PSNR than MODPA but computationaly expensive(using a combo of median and mean)
 
 matlab code for MODPA - basepaperalgomod.m <br />
 matlab code for MOD2PA - modifieednewalgo.m
